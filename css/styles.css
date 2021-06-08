@@ -546,6 +546,7 @@ margin-bottom: 20px;
     background:transparent;
     color: var(--primary-navigation-color);
     cursor: pointer;
+    padding: 15px 16px;
 }
 .footer-form-input::placeholder{
 font-weight: 400;
@@ -553,7 +554,6 @@ font-size: 16px;
 line-height: 1.25;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
-padding: 15px;
 }
 .footer-form-btn{
 width: 200px;
@@ -762,6 +762,7 @@ margin-bottom: 12px;
 }
 .form-field{
 margin-bottom: 10px;
+margin-top: 12px;
 font-weight: 400;
 font-size: 12px;
 line-height: 1.16;
@@ -824,6 +825,8 @@ color: rgba(117, 117, 117, 0.5);
     letter-spacing: 0.03em;
     color:var(--primary-description-color);
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
 }
 .form-checkbox-policy::before{
     content: "";
